@@ -5,7 +5,7 @@ const AuthContext = createContext();
 
 export const useAuth = () => useContext(AuthContext);
 
-axios.defaults.baseURL = "/api";
+axios.defaults.baseURL = `${import.meta.env.VITE_API_URL}/api`;
 
 export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
