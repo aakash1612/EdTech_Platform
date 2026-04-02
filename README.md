@@ -1,6 +1,7 @@
 # EduLearn — Full-Stack EdTech Platform
 
 A production-ready MERN stack EdTech platform with admin and student modes, video lectures, and payment integration.
+## Live Demo : https://edutechplatformm.netlify.app
 
 ---
 
